@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Play Battleship</title></head>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <body>
+    <div id="main">
+      <h2>Battleship</h2>
+      <p id="description"></p>
+      <button style="display: none;" id="play">Play Now!</button>
+      <div id="action">
+        <select name="direction">
+          <option value="ver">Vertical</option>
+          <option value="hor">Horizontal</option>
+        </select>
+        <select name="ship">
+          <option value="carrier">Carrier</option>
+          <option value="battleship">Battleship</option>
+          <option value="destroyer">Destroyer</option>
+          <option value="submarine">Submarine</option>
+          <option value="patrol">Patrol</option>
+        </select>
+        <button type="submit" id="submit">Submit</button>
+      </div>
+      <button type="submit" id="changePlayer">Change Player</button>
+      <div id="board">
+
+      </div>
+      <div id="status"></div>
+    </div>
+  </body>
+</html>

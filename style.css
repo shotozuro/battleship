@@ -1,0 +1,44 @@
+.box {
+  width: 50px;
+  height: 50px;
+}
+.ship {
+  background: #222f3e;
+}
+.coord {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  /* margin: 2px; */
+  align-items: center;
+  justify-content: center;  
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.carrier {
+  background: #1dd1a1;
+}
+.battleship {
+  background: #ff9f43;
+}
+.destroyer {
+  background: #5f27cd;
+
+}
+.submarine {
+  background: #0abde3;
+
+}
+.patrol {
+  background: #576574;
+}
+
+.hit {
+  background: navy;
+}
+
+.hit-ship {
+  background: red;
+}
