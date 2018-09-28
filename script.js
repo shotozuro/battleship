@@ -123,6 +123,7 @@ function renderBox (row, col) {
     if (selectedBox.hit == true) {
       if (selectedBox.type != "water") {
         box.classList.add("hit-ship")
+        box.appendChild(document.createTextNode(selectedBox.type[0]))
       } else {
         box.classList.add("hit")
       }
